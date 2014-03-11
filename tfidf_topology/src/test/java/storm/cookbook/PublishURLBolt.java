@@ -14,6 +14,7 @@ import backtype.storm.tuple.Tuple;
 public class PublishURLBolt extends BaseRichBolt {
 
 	private static final long serialVersionUID = 1L;
+	private Jedis jedis = new Jedis("pool");
 
 	@Override
 	public void prepare(Map stormConf, TopologyContext context, OutputCollector collector) {

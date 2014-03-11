@@ -69,7 +69,7 @@ public class TwitterSpout extends BaseRichSpout {
 		
 		twitterStream = new TwitterStreamFactory().getInstance();
 		twitterStream.addListener(listener);
-		
+
 		FilterQuery filter = new FilterQuery();
 		filter.count(0);
 		filter.track(trackTerms);
