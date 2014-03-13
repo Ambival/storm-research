@@ -21,7 +21,7 @@
   <classpathentry kind="var" path="M2_REPO/storm/libthrift7/0.7.0/libthrift7-0.7.0.jar"/>
   <classpathentry kind="var" path="M2_REPO/commons-lang/commons-lang/2.5/commons-lang-2.5.jar"/>
   <classpathentry kind="var" path="M2_REPO/org/apache/httpcomponents/httpclient/4.1.1/httpclient-4.1.1.jar"/>
-  <classpathentry kind="var" path="M2_REPO/org/apache/httpcomponents/httpcore/4.1/httpcore-4.1.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/apache/httpcomponents/httpcore/4.0.1/httpcore-4.0.1.jar"/>
   <classpathentry kind="var" path="M2_REPO/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar"/>
   <classpathentry kind="var" path="M2_REPO/commons-codec/commons-codec/1.5/commons-codec-1.5.jar"/>
   <classpathentry kind="var" path="M2_REPO/clj-time/clj-time/0.4.1/clj-time-0.4.1.jar"/>
@@ -60,8 +60,8 @@
   <classpathentry kind="var" path="M2_REPO/ch/qos/logback/logback-classic/1.0.6/logback-classic-1.0.6.jar"/>
   <classpathentry kind="var" path="M2_REPO/ch/qos/logback/logback-core/1.0.6/logback-core-1.0.6.jar"/>
   <classpathentry kind="var" path="M2_REPO/org/slf4j/log4j-over-slf4j/1.6.6/log4j-over-slf4j-1.6.6.jar"/>
-  <classpathentry kind="var" path="M2_REPO/org/twitter4j/twitter4j-core/3.1.0-SNAPSHOT/twitter4j-core-3.1.0-SNAPSHOT.jar"/>
-  <classpathentry kind="var" path="M2_REPO/org/twitter4j/twitter4j-stream/3.1.0-SNAPSHOT/twitter4j-stream-3.1.0-SNAPSHOT.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/twitter4j/twitter4j-core/4.0.1-SNAPSHOT/twitter4j-core-4.0.1-SNAPSHOT.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/twitter4j/twitter4j-stream/4.0.1-SNAPSHOT/twitter4j-stream-4.0.1-SNAPSHOT.jar"/>
   <classpathentry kind="var" path="M2_REPO/org/jmock/jmock-junit4/2.5.1/jmock-junit4-2.5.1.jar"/>
   <classpathentry kind="var" path="M2_REPO/junit/junit-dep/4.4/junit-dep-4.4.jar"/>
   <classpathentry kind="var" path="M2_REPO/redis/clients/jedis/2.1.0/jedis-2.1.0.jar"/>
@@ -101,4 +101,25 @@
   <classpathentry kind="var" path="M2_REPO/org/apache/lucene/lucene-core/3.6.2/lucene-core-3.6.2.jar"/>
   <classpathentry kind="var" path="M2_REPO/org/apache/lucene/lucene-spellchecker/3.6.2/lucene-spellchecker-3.6.2.jar"/>
   <classpathentry kind="var" path="M2_REPO/edu/washington/cs/knowitall/morpha-stemmer/1.0.4/morpha-stemmer-1.0.4.jar"/>
+  <classpathentry kind="var" path="M2_REPO/trident-cassandra/trident-cassandra/0.0.1-wip2/trident-cassandra-0.0.1-wip2.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/hectorclient/hector-core/1.1-1/hector-core-1.1-1.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/apache/cassandra/cassandra-all/1.1.0/cassandra-all-1.1.0.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/xerial/snappy/snappy-java/1.0.4.1/snappy-java-1.0.4.1.jar"/>
+  <classpathentry kind="var" path="M2_REPO/com/ning/compress-lzf/0.8.4/compress-lzf-0.8.4.jar"/>
+  <classpathentry kind="var" path="M2_REPO/commons-cli/commons-cli/1.1/commons-cli-1.1.jar"/>
+  <classpathentry kind="var" path="M2_REPO/com/googlecode/concurrentlinkedhashmap/concurrentlinkedhashmap-lru/1.2/concurrentlinkedhashmap-lru-1.2.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/antlr/antlr/3.2/antlr-3.2.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/antlr/antlr-runtime/3.2/antlr-runtime-3.2.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/antlr/stringtemplate/3.2/stringtemplate-3.2.jar"/>
+  <classpathentry kind="var" path="M2_REPO/antlr/antlr/2.7.7/antlr-2.7.7.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/apache/cassandra/deps/avro/1.4.0-cassandra-1/avro-1.4.0-cassandra-1.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/codehaus/jackson/jackson-mapper-asl/1.4.0/jackson-mapper-asl-1.4.0.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/codehaus/jackson/jackson-core-asl/1.4.0/jackson-core-asl-1.4.0.jar"/>
+  <classpathentry kind="var" path="M2_REPO/com/github/stephenc/high-scale-lib/high-scale-lib/1.1.2/high-scale-lib-1.1.2.jar"/>
+  <classpathentry kind="var" path="M2_REPO/edu/stanford/ppl/snaptree/0.1/snaptree-0.1.jar"/>
+  <classpathentry kind="var" path="M2_REPO/com/yammer/metrics/metrics-core/2.0.3/metrics-core-2.0.3.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/apache/thrift/libthrift/0.7.0/libthrift-0.7.0.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/apache/cassandra/cassandra-thrift/1.1.0/cassandra-thrift-1.1.0.jar"/>
+  <classpathentry kind="var" path="M2_REPO/com/github/stephenc/eaio-uuid/uuid/3.2.0/uuid-3.2.0.jar"/>
+  <classpathentry kind="var" path="M2_REPO/com/ecyrd/speed4j/speed4j/0.9/speed4j-0.9.jar"/>
 </classpath>

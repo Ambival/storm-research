@@ -12,6 +12,7 @@ import backtype.storm.tuple.Values;
 
 public class TweetURLSpout extends BaseRichSpout {
 
+	private static final long serialVersionUID = 1L;
 	private String host;
 	private int port;
 	private SpoutOutputCollector collector;
@@ -21,7 +22,7 @@ public class TweetURLSpout extends BaseRichSpout {
 	public void open(Map conf, TopologyContext context, SpoutOutputCollector collector) {
 		host = conf.get(Conf.REDIS_HOST_KEY).toString();
 		port = Integer.valueOf(conf.get(Conf.REDIS_PORT_KEY).toString());
-		
+
 		this.collector = collector;
 
 		connectToRedis();
